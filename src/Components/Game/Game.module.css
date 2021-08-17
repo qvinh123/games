@@ -1,0 +1,26 @@
+.page__content {
+    padding: 20px;
+}
+.page__content-header{
+    padding: 10px 15px;
+}
+.page__content-heading h2 {
+    font-size: 52px;
+    color: var(--color-white);
+}
+
+.page__content-filter {
+    display: flex;
+    margin-top: 25px;
+}
+
+.page__content-dropdown-children {
+    position: absolute;
+    min-width: 50%;
+    left: 80%;
+    background-color: white;
+    margin-top: -40px;
+    box-shadow: -1px 1px 5px rgb(0 0 0 / 20%);
+    border-radius: 4px;
+    padding: 5px 10px 10px;
+}

@@ -1,0 +1,14 @@
+:root {
+    --color-white: #fff;
+    --color-sidebar: #d8d8dd;
+    --color-black: #000;
+    --color-light: #58565c;
+    --color-green:#00ff38;
+    
+    --bg-highlight: #29354a;
+    --bg-sideBar: #0b0c22;
+    --bg-main: #0c0f27;
+    --bg-icon: hsla(0, 0%, 100%, .1);
+    --bg-light: #fff;
+    --fz-title: 1.5rem
+}

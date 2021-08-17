@@ -1,0 +1,18 @@
+.page__content-dropdown-menu {
+    width: 105%;
+    top:-33px !important;
+    left: -20px !important;
+    cursor: pointer;
+    padding: 5px 10px 10px;
+}
+
+.page__content-dropdown-children {
+    position: absolute;
+    min-width: 50%;
+    left: 80%;
+    background-color: white;
+    margin-top: -40px;
+    box-shadow: -1px 1px 5px rgb(0 0 0 / 20%);
+    border-radius: 4px;
+    padding: 5px 10px 10px;
+}

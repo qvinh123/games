@@ -1,0 +1,71 @@
+.sideBar {
+    padding: 15px;
+    color: var(--color-sidebar);
+    position: fixed;
+    z-index: 3;
+}
+.sideBar__logo{
+    height: 80px;
+    line-height: 80px;
+}
+.sideBar__logo i {
+    color: #14aef5;
+    font-size: 42px;
+}
+
+.sideBar__menu {
+    margin-top: 20px;
+}
+
+.sideBar__title a {
+    font-size: var(--fz-title);
+    line-height: 28px;
+    display: block;
+    margin-bottom: 16px;
+    font-weight: 700;
+}
+
+.sideBar__list {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.sideBar__item {
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.sideBar__link {
+    display: flex;
+    align-items: center;
+    color: var(--color-sidebar);
+}
+
+.sideBar__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    min-width: 32px;
+    height: 32px;
+    margin-right: 10px;
+    border-radius: 6px;
+    object-fit: cover;
+    background-color: var(--bg-icon);
+    transition: all .5s;
+}
+.sideBar__icon-svg {
+    width: 18px;
+    height: 18px;
+}
+
+.sideBar__icon:hover{
+    background-color: var(--bg-light);
+}
+
+.sideBar__icon:hover .sideBar__icon-svg path {
+    fill: var(--color-black)
+}
+
+

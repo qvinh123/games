@@ -1,0 +1,9 @@
+@import "../../variable.css";
+
+.wrapper__sidebar {
+    background-color: var(--bg-sideBar);
+}
+
+.wrapper__main {
+    background-color: var(--bg-main);
+}

@@ -1,0 +1,69 @@
+@import "../../variable.css";
+.header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.nav {
+    padding: 0 15px;
+}
+
+.nav__list {
+    display: flex;
+    list-style: none;
+    margin-bottom: 0;
+    padding-left: 0;
+    cursor: pointer;
+}
+
+.nav__item {
+    margin-right: 15px;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: var(--color-white);
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.nav__link:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.nav__link--active {
+    background-color: var(--bg-highlight);
+}
+
+.searchAndInfo {
+    display: flex;
+    align-items: center;
+}
+
+.header__user {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.header__logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.header__logo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.header__name {
+    width: 150px;
+}

@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+import { Redirect, Route, Switch } from 'react-router-dom';
 import './App.css';
+import Layout from './Components/Layout/Layout';
+import AllGames from './Pages/AllGames';
+import AllGamesTwoParam from "./Pages/AllGameTwoParam"
+import Home from './Pages/Home';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Layout>
+        <Switch>
+          <Route path="/" exact>
+            <Redirect to="/games" />
+          </Route>
+          <Route path="/games" exact>
+            <Home />
+          </Route>
+          <Route path="/games/:param1" exact>
+            <AllGames />
+          </Route>
+          <Route path="/games/:param1/:param2" exact>
+            <AllGamesTwoParam />
+          </Route>
+        </Switch>
+      </Layout>
     </div>
   );
 }

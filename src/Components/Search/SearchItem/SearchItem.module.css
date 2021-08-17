@@ -1,0 +1,61 @@
+@import "../../../variable.css";
+.search-result__item{
+    height: 60px;
+}
+.search-result__image {
+    transition: .3s all;
+}
+
+.search-result__image:hover {
+    opacity: .7;
+}
+
+.search-result__image img {
+    width: 45px;
+    height: 45px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.search-result__content{
+    margin-left: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.search-result__border span {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: linear-gradient(0deg, #4354b9, #649bff);
+    display: inline-block;
+}
+
+.search-result__item .search-result__link {
+    display: flex;
+    color: var(--color-light);
+    align-items: flex-end;
+}
+
+.search-result__platforms{
+    margin-bottom: 2px;
+}
+
+.search-result__name {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--color-light);
+    transition: all .3s;
+    margin-bottom: 0;
+}
+
+.search-result__name:hover {
+    color: var(--color-black);
+}
+
+.search-result__positions {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 4px;
+}
